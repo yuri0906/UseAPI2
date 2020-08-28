@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-color: #FFDBC9;
+} 
+
+header {
+  font-size : 25px;
+  color: white ;
+  background-color: #000033; 
+  text-align: center;
+}
+
+#title {
+  margin-top: 0;
+  margin-left:10px;
+}
+
+.app {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textform {
+  padding: 1.6rem 1rem;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+
+#explain {
+  font-size: medium;
+}
+
+.textform textarea {
+  width: 500px;
+  height: 200px;
+  margin-top: 5px; 
+}
+
+
+#btn {
+display: inline-block;
+padding: 0.5em 1em;
+text-decoration: none;
+border-radius: 50%;
+background: #668ad8;
+color: #FFF;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8" />
+      <title>文章要約</title>
+      <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <header>
+     <h1 id="title">文章要約アプリ</h1>
+    </header>
+    
+    <div class="app">
+      <form action="/" method="post">
+
+        <div class="setlang">
+          <h1 id="explain">言語を選択してください</h1>
+          <select id="lang" name="lang">
+        　  <option disabled selected value>言語を選択</option>
+            <option value="ja">日本語</option>
+            <option value="en">英語</option>
+          </select>
+        </div>
+    
+        <div class="textform">
+          <h1 id="explain">要約したい文章を入力して「要約する」ボタンを押してください。</h1>
+          <textarea name="sentences" rows="4" cols="40"></textarea>
+        </div>
+
+        <div class="setnum">
+          <h1 id="explain">要約文の数を指定してください</h1>
+          <input name="linenumber" type="number" min="1" max="3">
+        </div>
+    
+        <div>
+          <h1><input id="btn" type="submit" value="要約する"></h1>
+        </div>
+      </form>
+      <p><%= result　%></p>
+    </div>
+  </body>
+</html>
